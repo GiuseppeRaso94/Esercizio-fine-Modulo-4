@@ -1,0 +1,12 @@
+#cardImg {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.card {
+  transition: 0.6s;
+}
+
+.card:hover {
+  transform: scale(1.06);
+}

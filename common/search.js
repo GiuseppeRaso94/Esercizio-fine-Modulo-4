@@ -1,3 +1,5 @@
+//La ricerca funziona solo se viene inserito un testo dell'esatto contenuto e lunghezza presente in qualsiasi campo di un prodotto
+
 let products = [];
 const dataSearch = document.getElementById("dataSearch");
 const searchForm = document.getElementById("searchForm");

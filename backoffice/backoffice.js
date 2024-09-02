@@ -17,4 +17,3 @@ function deleteProduct(productId) {
 }
 
 getProduct();
-initEventListener();
