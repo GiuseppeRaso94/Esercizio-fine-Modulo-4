@@ -1,10 +1,10 @@
 import {
-  initForm,
   productName,
   productDescription,
   productBrand,
   productImageUrl,
   productPrice,
+  submitForm,
 } from "../common/form.js";
 const id = new URLSearchParams(window.location.search).get("id");
 
@@ -16,4 +16,4 @@ request("GET", id).then((data) => {
   productPrice.value = data.price;
 });
 
-initForm(id);
+submitForm(id);

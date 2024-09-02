@@ -1,3 +1,3 @@
-import { initForm } from "../common/form.js";
+import { submitForm } from "../common/form.js";
 
-initForm();
+submitForm();
